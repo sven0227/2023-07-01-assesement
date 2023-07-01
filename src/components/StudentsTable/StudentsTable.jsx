@@ -1,4 +1,4 @@
-import './StudentsTable.module.css'
+import './StudentsTable.css'
 
 const StudentsTable = ({ studentsData, schoolsData, LegalguardiansData }) => {
   return (

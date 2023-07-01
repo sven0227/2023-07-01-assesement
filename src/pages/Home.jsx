@@ -13,6 +13,7 @@ const Home = () => {
   const [legalguardiansData, setLegalguardiansData] = useState([])
 
   const onStudentsPick = async studentIds => {
+    console.log('studentIds :>> ', studentIds);
     for (const studentId of studentIds) {
       const studentData = await fetchStudentData(studentId)
       setStudentsData([...studentsData, studentData])
